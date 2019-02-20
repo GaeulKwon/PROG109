@@ -1,0 +1,23 @@
+<! doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+<title> Mad Libs </title>
+</head>
+
+<body>
+	<script>
+	var yourName = prompt("Enter your name");
+	var verb = prompt("Enter a verb");
+	var verb2 = prompt("Enter another verb");
+	var noun = prompt("Enter a noun");
+	var adjective = prompt("Enter an adjective");
+
+	document.write("There are two " + noun + "s and they " + verb + " to the store. At the store, " 
+				+ yourName + " " + verb2 + " to them because the " + noun + "s are too " + adjective + ".");
+
+	</script>
+
+</body>
+
+</html>
