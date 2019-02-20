@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Module 02 </title>
+</head>
+  
+<body>
+  <table border="1" width="800"> 
+    <tr>
+      <td colspan = "3"><h1 align="center"> HTML Table Example </h1></td>
+    </tr>
+    
+    <tr>
+      <td><img src="https://images.all-free-download.com/images/graphiclarge/cooking_background_mother_daughter_kitchen_icons_cartoon_design_6837478.jpg" alt="Kitchen Picture" width="250" height="180"/></td>
+      <td><h2 align="center"> Meal Planner </h2></td>
+      <td><h2> Recipe Index #: </h2></td>
+    </tr>
+    
+    <tr> 
+      <th> Week starting </th>
+      <th> 1/20/2019 </th>
+      <th> Instructions </th>
+    </tr>
+    
+    <tr>
+      <td><b> Day of the Week </b></td>
+      <td><b> Recipe Name </b></td>
+      <td rowspan = "8" align="center"> Add the name of the recipe under the column Recipe Name </td>
+    </tr>
+    
+    <tr>
+      <td> Monday </td>
+      <td> Spinach Feta Pizza </td>
+    </tr>
+    
+    <tr>
+      <td> Tuesday </td>
+      <td> My New Recipe </td>
+    </tr>
+    
+    <tr>
+      <td> Wednesday </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> Thursday </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> Friday </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> Saturday </td>
+      <td> </td>
+    </tr>
+    
+    <tr>
+      <td> Sunday </td>
+      <td> </td>
+    </tr>
+  </table>
+
+<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5" title="HTML5"></a></p>
+
+</body>
+</html>
+
