@@ -58,7 +58,7 @@ section {
 }
 
 footer {
-	background-color: #123456;
+	background-color: #D79BFC;
 	margin-top: 40px;
 	font-size: small;
 	padding: 5px 20px;
@@ -74,8 +74,8 @@ footer>span {
 }
 
 aside {
-	border: 5px solid #123456;
-	border-top: 26px solid #123456;
+	border: 5px solid #D79BFC;
+	border-top: 26px solid #D79BFC;
 	float: right;
 	width: 180px;
 	padding: 0 25px 50px;
