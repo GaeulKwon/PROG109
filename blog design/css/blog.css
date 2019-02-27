@@ -1,0 +1,94 @@
+* { margin: 0; padding: 0; }
+html {	
+  font-size: 85%; 
+	background-image: url(../images/taiwan.jpg);
+}
+
+body {
+	width: 800px;
+	margin: 10px auto;
+	font-family: sans-serif;    
+	background-color: rgb(245,255,245);
+	border: 1px solid lightgray;
+	padding: 40px 80px 100px;
+}
+
+header {
+	width: 800px;
+	height: 160px; 
+	border: 1px solid #123456;
+}
+
+img {
+	float:left;
+	height: 160px;
+	width: 450px;
+	margin-right: 20px;
+}
+
+header>span {
+	font-weight: bold;
+	font-size: 28px;
+	color: #123456;
+}
+
+section>h2 {
+	font-size: 24px;
+	color: #123456;	
+	margin-top: 30px;	
+	border-bottom: 1px solid;	
+	margin-bottom: 35px;
+}
+
+h4 {
+	color: #123456;
+	margin-bottom: 20px;
+}
+
+nav {
+	margin-top: 20px;
+}
+nav > a {
+	text-decoration: none;
+	color: #123456;
+}
+
+section {
+	width: 500px;
+}
+
+footer {
+	background-color: #123456;
+	margin-top: 40px;
+	font-size: small;
+	padding: 5px 20px;
+	opacity: .3;
+}
+
+footer:first-line {     
+	font-weight: bold;
+}
+
+footer>span {
+	font-size: 100%;
+}
+
+aside {
+	border: 5px solid #123456;
+	border-top: 26px solid #123456;
+	float: right;
+	width: 180px;
+	padding: 0 25px 50px;
+	margin-top: 25px;
+}
+
+aside>h3 {
+	margin-top: -20px;
+	color: white;
+	font-weight: small;
+	margin-bottom: 40px;
+}
+
+dd {
+	padding-bottom: 20px;
+}
