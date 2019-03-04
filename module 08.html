@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Module 09 </title>
+</head>
+<body>
+
+<h1>Module 08 Practices</h1>
+<p id="demo"></p>
+
+<script>
+var sillySentence = "Jack and Jill went up a hill."
+var sln = sillySentence.length;
+
+document.write("<p>Original string as it was entered: " + sillySentence + "</p>");
+
+document.write("<p>Here is all lower case: " + sillySentence.toLowerCase() + "</p>"); 
+
+document.write("<p>This is the output to all uppercase letter: " + sillySentence.toUpperCase() + "</P>");
+
+document.write("<p>There are " + sillySentence.length + " characters in your string.");
+
+document.write("<p> The characters between index 5 and 10 are: " + sillySentence.slice(5,10) + "</p>");
+
+document.write("<p> The five characters from index 8 are: " + sillySentence.substr(8,5) + "</p>");
+
+newString = sillySentence + " It is a beautiful spring day today.";
+document.write(newString);
+
+newString = newString.replace(".", "");
+newString = newString.replace(".", "");
+myArray = newString.split("");
+
+document.write("<p>My array values are: " + myArray + "</p>");
+
+document.write("<p>There are: " + myArray.length + " items in an array.</p>");
+
+
+
+//Fruit Array Begin
+document.write("<h2>FRUIT ARRAY EXAMPLE</h2>");
+
+var fruit = ["apple", "banana", "orange"];
+
+document.write("<p>The item with index of 0 is: " + fruit[0] +"</p>");
+document.write("<p>The item with index of 1 is: " + fruit[1] +"</p>");
+
+fruit[2] = "grapefruit";
+document.write("<p> The item with index of 2 is now: " + fruit[2] + "</p>");
+fruit[3] = "orange";
+document.write("<p> The item with index of 3 is now: " + fruit[3] + "</p>");
+
+fruit.shift(); // Remove the first item in the array.
+document.write("<p> New array values after removing the first item in the array: " + fruit + "</p>" );
+
+fruit.push("banana"); // Add the word "banana" to the end of the array.
+document.write("<p> New array values after adding the word banana to the end of the array: " + fruit + "</p>" );
+
+fruit.sort(); 
+fruit.reverse();
+document.write("<p> New array values after reversing word: " + fruit + "</p>" );
+
+fruit[2] = "stardust";
+document.write("<p> New array values after replacing word: " + fruit + "</p>" );
+
+document.write("<p> There are " + fruit.length + " items in our array</p>");
+
+// This will just dump all of the results 
+// document.write("<p> New array values: " + fruit + "</p>" );
+
+
+// Output the array in a list format
+fruitLen = fruit.length; // First step- find out how many elements in the array.
+
+text = "<ul>";
+for (i = 0; i < fruitLen; i++) {
+text += "<li>" + fruit[i] + "</li>";
+}
+text += "</ul>";
+alert(text);
+document.write(text);
+
+document.write("<p>Alphabetical order: " + fruit.sort() +"</p>");
+
+</script>
+
+</body>
+</html>
